@@ -1,0 +1,129 @@
+.Welcome{
+    background-image: url(./images/EngTechBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    
+}
+.inWelcome{
+  background-color: rgba(24, 24, 4, 0.514);
+  width: 100%;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  /* feature icon */
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .feature-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: .75rem;
+  }
+  
+  .icon-link {
+    display: inline-flex;
+    align-items: center;
+  }
+  .icon-link > .bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    transition: transform .25s ease-in-out;
+    fill: currentColor;
+  }
+  .icon-link:hover > .bi {
+    transform: translate(.25rem);
+  }
+  
+  .icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: .75rem;
+  }
+  
+  .rounded-4 { border-radius: .5rem; }
+  .rounded-5 { border-radius: 1rem; }
+  
+  .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
+  .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+  .text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+  
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  /*  */
+  .Mechanical{
+    background-image: url(./images/Mechanical.jpg);
+    background-size: cover;
+    
+  }
+  .Mechanical h2{
+    width: fit-content;
+    background-color: #20200f61;
+  }
+  
+  .Electrical{
+    background-image: url(./images/Electrical.png);
+    background-size: cover;
+  }
+  .Electrical h2{
+    background-color: #00015d78;
+  }
+  
+  .Energy{
+    background-image: url(./images/Energy\ engineering\ bacground.png);
+    background-size: cover;
+  }
+  .Energy h2{
+    background-color: #23120a69;
+  }
+  .Civil{
+    background-image: url(./images/Civil\ engineering\ bacground.png);
+    background-size: cover;
+  }
+  .Civil h2{
+    background-color: #161616ab;
+  }
+  .Architecture{
+    background-image: url(./images/Architecture\ .jpg);
+    background-size: cover;
+  }
+  .Architecture h2{
+    background-color: #2f2f2f73;
+  }
+ h2.engineering { 
+    width: fit-content;  
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; 
+  }
